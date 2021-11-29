@@ -13,7 +13,11 @@
 
     <main>
         <div class="systemdetector d-flex justify-content-center">
+            <% if (offlines > 0) { %>
+                <h1><img class="statusimage" src="https://justinp.dev/statusmonitor/offline.gif"><span>Some services are having issues..!</span></h1>
+                <% } else {>
             <h1><img class="statusimage" src="https://justinp.dev/statusmonitor/online.gif"><span>All services are up!</span></h1>
+            <% } %>
         </div>
         <!-- <div class="systemdetector d-flex justify-content-center">
             <h1><img class="statusimage" src="images/855053325292273684.gif"><span>Some services might be down.</span></h1>
