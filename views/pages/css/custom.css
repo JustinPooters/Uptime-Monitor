@@ -1,0 +1,67 @@
+body {
+    background-color: #02001d !important;
+}
+
+.navbar {
+    background-color: #02001d !important;
+}
+
+.inlinelink {
+    padding-left: 10px;
+}
+
+main {
+    color: #fff;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.systemdetector {
+    background-color: #1a1a1a !important;
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+.statusimage {
+    width: 30px;
+    height: auto;
+}
+
+.systemdetector span {
+    padding-left: 20px;
+    font-size: 0.8em;
+}
+
+.inbetween {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.activeservers {
+    background-color: #1a1a1a !important;
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+.activeservers h1 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.activeservers span {
+    padding-left: 20px;
+}
+
+.activeservers img {
+    width: 25px;
+    height: auto;
+}
