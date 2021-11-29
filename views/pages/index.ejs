@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+
+    <header>
+        <%- include('../partials/header'); %>
+    </header>
+
+    <main>
+        <div class="systemdetector d-flex justify-content-center">
+            <h1><img class="statusimage" src="https://justinp.dev/statusmonitor/online.gif"><span>All services are up!</span></h1>
+        </div>
+        <!-- <div class="systemdetector d-flex justify-content-center">
+            <h1><img class="statusimage" src="images/855053325292273684.gif"><span>Some services might be down.</span></h1>
+        </div> -->
+        <div class="inbetween"></div>
+        <div class="activeservers d-flex justify-content-left">
+            <ul>
+                <h2>Online Servers</h2>
+                <p>You have <strong><%= onlines.length %></strong> online servers.</p>
+                <div class="inbetween"></div>
+                <% onlines.forEach(function(onlineservers) { %>
+                    <li>
+                        <h1><img src="https://justinp.dev/statusmonitor/online.gif"><span><%= onlineservers.name %> is Working!</span></h1>
+                    </li>
+                    <% }); %>
+            </ul>
+        </div>
+        <div class="inbetween"></div>
+        <div class="activeservers d-flex justify-content-left">
+            <ul>
+                <h2>Offline</h2>
+                <p>You have <strong><%= offlines.length %></strong> online servers.</p>
+                <div class="inbetween"></div>
+                <% offlines.forEach(function(offlineservers) { %>
+                    <li>
+                        <h1><img src="https://justinp.dev/statusmonitor/offline.gif"><span><%= offlineservers.name %> is Offline!</span></h1>
+                    </li>
+                    <% }); %>
+            </ul>
+        </div>
+        <div class="inbetween"></div>
+
+    </main>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+</body>
+
+</html>

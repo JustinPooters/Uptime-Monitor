@@ -1,0 +1,47 @@
+{
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "https": "^1.0.0",
+        "is-reachable": "^5.1.1",
+        "mysql": "^2.18.1"
+    },
+    "name": "uptime-monitor",
+    "version": "1.0.0",
+    "description": "Basic uptime monitor made in NodeJS",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/justinpooters/uptime-monitor.git"
+    },
+    "keywords": [
+        "Uptime",
+        "monitor",
+        "hosting",
+        "nodejs",
+        "node",
+        "js",
+        "uptime",
+        "monitor",
+        "auto",
+        "server",
+        "server",
+        "detector",
+        "gif",
+        "green",
+        "red",
+        "front-end",
+        "css",
+        "html"
+    ],
+    "author": "Justin Poooters",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/justinpooters/uptime-monitor/issues"
+    },
+    "homepage": "https://github.com/justinpooters/uptime-monitor#readme"
+}
